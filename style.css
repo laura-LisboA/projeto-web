@@ -1,0 +1,60 @@
+@font-face {
+  font-family: castoro;
+  src: url("fonts/CastoroTitling-Regular.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #413d3d;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-principal {
+  border-radius: 15px;
+  border: 4px solid #c8ff00;
+  background-color: #413d3d;
+  min-height: 400px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.nome-loja {
+  font-family: castoro, sans-serif;
+  font-size: 6rem;
+  color: #c8ff00;
+  font-weight: 900;
+  text-shadow: 2px 2px 4px #000, -2px -2px 4px #000;
+}
+footer {
+  background-color: #000;
+  height: 80px;
+}
+.menu-button {
+  margin: auto 10px;
+  height: 60px;
+  width: auto;
+  border-radius: 15px;
+}
+.menu-button:hover {
+  animation-name: hoverUp;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes hoverUp {
+  from {
+    transform: translateY(-2.5px);
+  }
+  to {
+    transform: translateY(-5px);
+  }
+}
