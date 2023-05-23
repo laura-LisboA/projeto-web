@@ -284,5 +284,14 @@ $vestidos = [
         "descricao" => "vestido assimétrico lp, com estampa e babado, de alça.",
         "condicao" => "usado" 
     ],
+    [        
+        "tipo" => "Vestidos",
+        "marca" => "sem-marca",
+        "tamanho" => "P",
+        "foto" => "imagens/32.jpg",
+        "preco" => 37,        
+        "descricao" => "vestido leve, com estampa e de alça.",
+        "condicao" => "usado" 
+    ],
 ];
 
