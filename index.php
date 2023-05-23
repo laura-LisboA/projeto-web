@@ -13,13 +13,13 @@
     <div class='container'>
         <h1 class="nome-loja">Fashion Reborn</h1>
         <div class="menu-principal">
-            <button class='menu-button'></button>
-            <button class='menu-button'></button>
-            <button class='menu-button'></button>
+            <button class='menu-button'>Moda Feminina</button>
+            <button class='menu-button'>Moda Masculina</button>
+            <button class='menu-button'>Moda Infantil</button>
         </div>
     </div>
-    <footer>
-
+    <footer class='footer'>
+        <p style="font-family:sans-serif;">©Todos Direitos Reservados FashionReborn Ltda.</p>
     </footer>
 </body>
 

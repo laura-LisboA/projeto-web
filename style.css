@@ -8,7 +8,7 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #413d3d;
+  background-image: url("images/background.jpg");
 }
 .container {
   height: 100vh;
@@ -40,21 +40,23 @@ footer {
   height: 80px;
 }
 .menu-button {
-  margin: auto 10px;
+  margin: auto 40px;
   height: 60px;
   width: auto;
   border-radius: 15px;
+  font-size: 3rem;
+  font-family: castoro, sans-serif;
+  font-weight: 800;
+  transition: all 0.7s ease-in-out;
 }
 .menu-button:hover {
-  animation-name: hoverUp;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
+  background-color: black;
+  color: white;
+  cursor: pointer;
 }
-@keyframes hoverUp {
-  from {
-    transform: translateY(-2.5px);
-  }
-  to {
-    transform: translateY(-5px);
-  }
+.footer {
+  display: flex;
+  color: white;
+  align-items: end;
+  justify-content: center;
 }
