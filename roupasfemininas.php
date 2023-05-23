@@ -235,4 +235,22 @@ $saias = [
         "descricao" => "saia jeans claro, curta, cintura média.",
         "condicao" => "usada" 
     ],
+    [        
+        "tipo" => "Saia",
+        "marca" => "sem-marca",
+        "tamanho" => "PP",
+        "foto" => "imagens/27.jpg",
+        "preco" => 23,        
+        "descricao" => "saia florida curta, de tecido.",
+        "condicao" => "usada" 
+    ],
+    [        
+        "tipo" => "Saia",
+        "marca" => "sem-marca",
+        "tamanho" => "G",
+        "foto" => "imagens/28.jpg",
+        "preco" => 15,        
+        "descricao" => "mini saia jeans claro, com babado.",
+        "condicao" => "usada" 
+    ]
 ];    
