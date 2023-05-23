@@ -196,4 +196,17 @@ $shorts = [
         "descricao" => "short em courino, cor preto.",
         "condicao" => "usado"
     ]
+];   
+
+$saias = [
+    [        
+        "tipo" => "Saia",
+        "marca" => "sem-marca",
+        "tamanho" => "P",
+        "foto" => "imagens/23.jpg",
+        "preco" => 25,        
+        "descricao" => "saia bem patricinha, de pano, com babado.",
+        "condicao" => "usada"
+    ],
+
 ];    
