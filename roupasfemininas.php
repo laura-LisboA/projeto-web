@@ -160,4 +160,13 @@ $shorts = [
         "descricao" => "short jeans escuro feminino, modelo com pérolas.",
         "condicao" => "usado"
     ],
+    [        
+        "tipo" => "Shorts",
+        "marca" => "sem-marca",
+        "tamanho" => 38,
+        "foto" => "imagens/19.jpg",
+        "preco" => 18,        
+        "descricao" => "shorts cintura alta jeans escuro, modelo com rasgo.",
+        "condicao" => "usado"
+    ],
 ];    
