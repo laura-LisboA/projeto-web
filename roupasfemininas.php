@@ -111,4 +111,13 @@ $calcas = [
         "descricao" => "calça jeans claro, wide leg.",
         "condicao" => "usada"
     ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "sem-marca",
+        "tamanho" => 44,
+        "foto" => "imagens/14.jpg",
+        "preco" => 20,        
+        "descricao" => "calça jeans claro em ótimo estado.",
+        "condicao" => "usada"
+    ],
 ];    
