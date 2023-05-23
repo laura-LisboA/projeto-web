@@ -208,5 +208,13 @@ $saias = [
         "descricao" => "saia bem patricinha, de pano, com babado.",
         "condicao" => "usada"
     ],
-
+    [        
+        "tipo" => "Saia",
+        "marca" => "sem-marca",
+        "tamanho" => "M",
+        "foto" => "imagens/24.jpg",
+        "preco" => 25,        
+        "descricao" => "saia de lã estampa azul, xadrez, com babado e de pano.",
+        "condicao" => "usada" 
+    ],
 ];    
