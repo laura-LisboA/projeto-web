@@ -275,5 +275,14 @@ $vestidos = [
         "descricao" => "vestido plus size veste até o 48, com estampa, de alça, longo.",
         "condicao" => "usado" 
     ],
+    [        
+        "tipo" => "Vestidos",
+        "marca" => "Lança-Perfume",
+        "tamanho" => "PP",
+        "foto" => "imagens/31.jpg",
+        "preco" => 60,        
+        "descricao" => "vestido assimétrico lp, com estampa e babado, de alça.",
+        "condicao" => "usado" 
+    ],
+];
 
-];    
