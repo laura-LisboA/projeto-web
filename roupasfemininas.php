@@ -359,5 +359,14 @@ $sapatos = [
         "descricao" => "linda anabela bege, de palha, fechada na parte da frente.",
         "condicao" => "usada" 
     ],
+    [        
+        "tipo" => "Sapatos",
+        "marca" => "Nike",
+        "tamanho" => 36,
+        "foto" => "imagens/40.jpg",
+        "preco" => 31,        
+        "descricao" => "tênis feminino air force branco, casual e confortável.",
+        "condicao" => "usado" 
+    ]
 ];    
 
