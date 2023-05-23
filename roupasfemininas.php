@@ -302,5 +302,14 @@ $vestidos = [
         "descricao" => "vestido branco curto, sem manga.",
         "condicao" => "usado" 
     ],
+    [        
+        "tipo" => "Vestidos",
+        "marca" => "sem-marca",
+        "tamanho" => "M",
+        "foto" => "imagens/34.jpg",
+        "preco" => 28,        
+        "descricao" => "vestido preto, tomara que caia e longo, usado uma vez.",
+        "condicao" => "usado" 
+    ]
 ];
 
