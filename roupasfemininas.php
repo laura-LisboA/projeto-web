@@ -75,5 +75,13 @@ $blusas = [
 ];
 
 $calcas = [
-
+    [        
+        "tipo" => "Calça",
+        "marca" => "Mais Estilosa",
+        "tamanho" => 38,
+        "foto" => "imagens/9.jpg",
+        "preco" => 35,        
+        "descricao" => "calça jeans com correntes nas laterais.",
+        "condicao" => "usada"
+    ],
 ];    
