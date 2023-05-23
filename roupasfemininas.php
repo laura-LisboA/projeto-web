@@ -73,5 +73,70 @@ $blusas = [
         "descricao" => "blusa estampada, de manga comprida, em poliéster, fashion.",
         "condicao" => "usada"
     ]
-];    
-
+];  
+  
+$calcas = [
+    [        
+        "tipo" => "Calça",
+        "marca" => "Mais Estilosa",
+        "tamanho" => 38,
+        "foto" => "imagens/9.jpg",
+        "preco" => 35,        
+        "descricao" => "calça jeans com correntes nas laterais.",
+        "condicao" => "usada"
+    ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "Tok",
+        "tamanho" => 34,
+        "foto" => "imagens/11.jpg",
+        "preco" => 30,        
+        "descricao" => "linda calça jeans escuro.",
+        "condicao" => "usada"
+    ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "sem-marca",
+        "tamanho" => 36,
+        "foto" => "imagens/12.jpg",
+        "preco" => 45,        
+        "descricao" => "calça jeans escuro, usada uma vez.",
+        "condicao" => "usada"
+    ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "South",
+        "tamanho" => 36,
+        "foto" => "imagens/13.jpg",
+        "preco" => 40,        
+        "descricao" => "calça jeans claro, wide leg.",
+        "condicao" => "usada"
+    ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "sem-marca",
+        "tamanho" => 44,
+        "foto" => "imagens/14.jpg",
+        "preco" => 20,        
+        "descricao" => "calça jeans claro em ótimo estado.",
+        "condicao" => "usada"
+    ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "sem-marca",
+        "tamanho" => 38,
+        "foto" => "imagens/15.jpg",
+        "preco" => 32,        
+        "descricao" => "calça jeans claro usada, modelo com rasgo.",
+        "condicao" => "usada"
+    ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "sem-marca",
+        "tamanho" => 42,
+        "foto" => "imagens/16.jpg",
+        "preco" => 35,        
+        "descricao" => "calça mom jeans claro.",
+        "condicao" => "usada"
+    ]
+];
