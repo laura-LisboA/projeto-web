@@ -293,5 +293,14 @@ $vestidos = [
         "descricao" => "vestido leve, com estampa e de alça.",
         "condicao" => "usado" 
     ],
+    [        
+        "tipo" => "Vestidos",
+        "marca" => "sem-marca",
+        "tamanho" => "P",
+        "foto" => "imagens/33.jpg",
+        "preco" => 30,        
+        "descricao" => "vestido branco curto, sem manga.",
+        "condicao" => "usado" 
+    ],
 ];
 
