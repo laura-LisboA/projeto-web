@@ -217,4 +217,22 @@ $saias = [
         "descricao" => "saia de lã estampa azul, xadrez, com babado e de pano.",
         "condicao" => "usada" 
     ],
+    [        
+        "tipo" => "Saia",
+        "marca" => "sem-marca",
+        "tamanho" => "M",
+        "foto" => "imagens/25.jpg",
+        "preco" => 20,        
+        "descricao" => "saia midi azul marinho, com babado.",
+        "condicao" => "usada" 
+    ],
+    [        
+        "tipo" => "Saia",
+        "marca" => "sem-marca",
+        "tamanho" => "GG",
+        "foto" => "imagens/26.jpg",
+        "preco" => 21,        
+        "descricao" => "saia jeans claro, curta, cintura média.",
+        "condicao" => "usada" 
+    ],
 ];    
