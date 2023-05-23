@@ -35,5 +35,5 @@ $blusas = [
         "foto" => "imagens/4.jpg",
         "preco" => 25,        
         "descricao" => "blusa linda usada, C&A, cor azul, tomara que caia.",
-        
+    ],    
 ];
