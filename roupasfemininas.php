@@ -140,3 +140,16 @@ $calcas = [
         "condicao" => "usada"
     ]
 ];
+
+$shorts = [
+    [        
+        "tipo" => "Shorts",
+        "marca" => "sem-marca",
+        "tamanho" => 40,
+        "foto" => "imagens/17.jpg",
+        "preco" => 20,        
+        "descricao" => "short jeans claro, modelo com rasgo.",
+        "condicao" => "usado"
+    ],
+
+];    
