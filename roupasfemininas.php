@@ -44,5 +44,14 @@ $blusas = [
         "preco" => 20,        
         "descricao" => "blusa canelada azul de manga comprida.",
         "condicao" => "usada"      
+    ],
+    [        
+        "tipo" => "Blusa",
+        "marca" => "Bad Cat",
+        "tamanho" => "M",
+        "foto" => "imagens/6.jpg",
+        "preco" => 15,        
+        "descricao" => "blusa de Lã Feminina com Touca Bad Cat.",
+        "condicao" => "usada" 
     ],    
 ];
