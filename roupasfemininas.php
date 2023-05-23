@@ -313,3 +313,25 @@ $vestidos = [
     ]
 ];
 
+$sapatos = [
+    [        
+        "tipo" => "Sapatos",
+        "marca" => "Fiveblu",
+        "tamanho" => 36,
+        "foto" => "imagens/35.jpg",
+        "preco" => 18,        
+        "descricao" => "scarpin dourado, de salto fino.",
+        "condicao" => "usado"
+    ],
+    [        
+        "tipo" => "Sapatos",
+        "marca" => "Giulia Domna",
+        "tamanho" => 37,
+        "foto" => "imagens/36.jpg",
+        "preco" => 30,        
+        "descricao" => "sandália giulia domna, cor marrom claro, de salto grosso.",
+        "condicao" => "usada" 
+    ],
+
+];    
+
