@@ -178,4 +178,13 @@ $shorts = [
         "descricao" => "shorts jeans claro, modelo com rasgo.",
         "condicao" => "usado"
     ],
+    [        
+        "tipo" => "Shorts",
+        "marca" => "sem-marca",
+        "tamanho" => 38,
+        "foto" => "imagens/21.jpg",
+        "preco" => 17,        
+        "descricao" => "short cetim blogueira fashion, com estampa.",
+        "condicao" => "usado"
+    ],
 ];    
