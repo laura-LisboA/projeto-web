@@ -169,4 +169,13 @@ $shorts = [
         "descricao" => "shorts cintura alta jeans escuro, modelo com rasgo.",
         "condicao" => "usado"
     ],
+    [        
+        "tipo" => "Shorts",
+        "marca" => "sem-marca",
+        "tamanho" => 42,
+        "foto" => "imagens/20.jpg",
+        "preco" => 20,        
+        "descricao" => "shorts jeans claro, modelo com rasgo.",
+        "condicao" => "usado"
+    ],
 ];    
