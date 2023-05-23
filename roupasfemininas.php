@@ -84,4 +84,13 @@ $calcas = [
         "descricao" => "calça jeans com correntes nas laterais.",
         "condicao" => "usada"
     ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "Tok",
+        "tamanho" => 34,
+        "foto" => "imagens/11.jpg",
+        "preco" => 30,        
+        "descricao" => "linda calça jeans escuro.",
+        "condicao" => "usada"
+    ],
 ];    
