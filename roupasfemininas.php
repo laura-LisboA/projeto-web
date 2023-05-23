@@ -28,4 +28,12 @@ $blusas = [
         "descricao" => "blusa em viscose, manga 3/4, amarração na frente, usada poucas vezes.",
         "condicao" => "usada" 
     ],
+    [        
+        "tipo" => "Blusa",
+        "marca" => "C&A",
+        "tamanho" => "M",
+        "foto" => "imagens/4.jpg",
+        "preco" => 25,        
+        "descricao" => "blusa linda usada, C&A, cor azul, tomara que caia.",
+        
 ];
