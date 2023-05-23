@@ -253,4 +253,27 @@ $saias = [
         "descricao" => "mini saia jeans claro, com babado.",
         "condicao" => "usada" 
     ]
+]; 
+
+
+$vestidos = [
+    [        
+        "tipo" => "Vestidos",
+        "marca" => "sem-marca",
+        "tamanho" => "M",
+        "foto" => "imagens/29.jpg",
+        "preco" => 46,        
+        "descricao" => "vestido azul, com estampa e de alça.",
+        "condicao" => "usado"
+    ],
+    [        
+        "tipo" => "Vestidos",
+        "marca" => "Vestido",
+        "tamanho" => 48,
+        "foto" => "imagens/30.jpg",
+        "preco" => 47,        
+        "descricao" => "vestido plus size veste até o 48, com estampa, de alça, longo.",
+        "condicao" => "usado" 
+    ],
+
 ];    
