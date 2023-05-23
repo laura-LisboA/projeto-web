@@ -73,3 +73,7 @@ $blusas = [
         "condicao" => "usada"
     ]  
 ];
+
+$calcas = [
+
+];    
