@@ -102,4 +102,13 @@ $calcas = [
         "descricao" => "calça jeans escuro, usada uma vez.",
         "condicao" => "usada"
     ],
+    [        
+        "tipo" => "Calça",
+        "marca" => "South",
+        "tamanho" => 36,
+        "foto" => "imagens/13.jpg",
+        "preco" => 40,        
+        "descricao" => "calça jeans claro, wide leg.",
+        "condicao" => "usada"
+    ],
 ];    
