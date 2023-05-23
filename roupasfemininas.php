@@ -350,5 +350,14 @@ $sapatos = [
         "descricao" => "sandália em tecido, vermelha, de salto fino, com abertura na parte da frente.",
         "condicao" => "usada" 
     ],
+    [        
+        "tipo" => "Sapatos",
+        "marca" => "sem-marca",
+        "tamanho" => 39,
+        "foto" => "imagens/39.jpg",
+        "preco" => 12,        
+        "descricao" => "linda anabela bege, de palha, fechada na parte da frente.",
+        "condicao" => "usada" 
+    ],
 ];    
 
