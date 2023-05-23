@@ -35,5 +35,14 @@ $blusas = [
         "foto" => "imagens/4.jpg",
         "preco" => 25,        
         "descricao" => "blusa linda usada, C&A, cor azul, tomara que caia.",
+    ],
+    [        
+        "tipo" => "Blusa",
+        "marca" => "sem-marca",
+        "tamanho" => "GG",
+        "foto" => "imagens/5.jpg",
+        "preco" => 20,        
+        "descricao" => "blusa canelada azul de manga comprida.",
+        "condicao" => "usada"      
     ],    
 ];
