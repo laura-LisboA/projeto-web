@@ -19,5 +19,13 @@ $blusas = [
         "descricao" => "blusa usada, conservada, de manga.",
         "condicao" => "usada" 
     ],
-
+    [        
+        "tipo" => "Blusa",
+        "marca" => "Sua",
+        "tamanho" => "G",
+        "foto" => "imagens/3.jpg",
+        "preco" => 20,        
+        "descricao" => "blusa em viscose, manga 3/4, amarração na frente, usada poucas vezes.",
+        "condicao" => "usada" 
+    ],
 ];
