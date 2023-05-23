@@ -332,6 +332,14 @@ $sapatos = [
         "descricao" => "sandália giulia domna, cor marrom claro, de salto grosso.",
         "condicao" => "usada" 
     ],
-
+    [        
+        "tipo" => "Sapatos",
+        "marca" => "Luiza Barcelos",
+        "tamanho" => 39,
+        "foto" => "imagens/37.jpg",
+        "preco" => 17,        
+        "descricao" => "sapato social, duas cores, sem salto, de abotoar.",
+        "condicao" => "usado" 
+    ],
 ];    
 
