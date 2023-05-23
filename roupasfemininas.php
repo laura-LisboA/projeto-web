@@ -151,5 +151,13 @@ $shorts = [
         "descricao" => "short jeans claro, modelo com rasgo.",
         "condicao" => "usado"
     ],
-
+    [        
+        "tipo" => "Shorts",
+        "marca" => "Play",
+        "tamanho" => 36,
+        "foto" => "imagens/18.jpg",
+        "preco" => 10,        
+        "descricao" => "short jeans escuro feminino, modelo com pérolas.",
+        "condicao" => "usado"
+    ],
 ];    
