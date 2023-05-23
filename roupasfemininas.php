@@ -10,3 +10,14 @@ $blusas = [
         "descricao" => "linda blusa branca 100% algodão, elegante.",
         "condicao" => "usada"
     ],
+    [        
+        "tipo" => "Blusa",
+        "marca" => "sem-marca",
+        "tamanho" => "M",
+        "foto" => "imagens/2.jpg",
+        "preco" => 13,        
+        "descricao" => "blusa usada, conservada, de manga.",
+        "condicao" => "usada" 
+    ],
+
+];
