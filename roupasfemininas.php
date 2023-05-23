@@ -187,4 +187,13 @@ $shorts = [
         "descricao" => "short cetim blogueira fashion, com estampa.",
         "condicao" => "usado"
     ],
+    [        
+        "tipo" => "Shorts",
+        "marca" => "sem-marca",
+        "tamanho" => 44,
+        "foto" => "imagens/22.jpg",
+        "preco" => 24,        
+        "descricao" => "short em courino, cor preto.",
+        "condicao" => "usado"
+    ]
 ];    
