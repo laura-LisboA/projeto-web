@@ -53,5 +53,23 @@ $blusas = [
         "preco" => 15,        
         "descricao" => "blusa de Lã Feminina com Touca Bad Cat.",
         "condicao" => "usada" 
-    ],    
+    ],  
+    [        
+        "tipo" => "Blusa",
+        "marca" => "sem-marca",
+        "tamanho" => "único",
+        "foto" => "imagens/7.jpg",
+        "preco" => 40,        
+        "descricao" => "blusa linda, nova, com listras, de manga comprida e com amarração na parte da frente.",
+        "condicao" => "usada uma única vez"
+    ],
+    [        
+        "tipo" => "Blusa",
+        "marca" => "Fashion",
+        "tamanho" => "G",
+        "foto" => "imagens/8.jpg",
+        "preco" => 17,        
+        "descricao" => "blusa estampada, de manga comprida, em poliéster, fashion.",
+        "condicao" => "usada"
+    ]  
 ];
