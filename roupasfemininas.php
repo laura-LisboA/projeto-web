@@ -341,5 +341,14 @@ $sapatos = [
         "descricao" => "sapato social, duas cores, sem salto, de abotoar.",
         "condicao" => "usado" 
     ],
+    [        
+        "tipo" => "Sapatos",
+        "marca" => "sem-marca",
+        "tamanho" => 35,
+        "foto" => "imagens/38.jpg",
+        "preco" => 20,        
+        "descricao" => "sandália em tecido, vermelha, de salto fino, com abertura na parte da frente.",
+        "condicao" => "usada" 
+    ],
 ];    
 
