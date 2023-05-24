@@ -15,6 +15,25 @@
 </head>
 
 <body>
+
+<header>
+    <div class="botao">
+		<a href="formulario.php">Área do cliente</a>
+	</div>
+    <div id="menu">
+                <div>
+                    <img src="images/logo.png">
+                </div>
+                <nav>
+				    <ul>
+					   <li><a href="">Home</a></li>
+					   <li><a href="">Serviços</a></li>
+					   <li><a href="">Informações</a></li>
+					   <li><a href="">Contato</a></li>
+				    </ul>	
+                </nav>
+            </div>
+</header>
     <div class='container'>
         <h1 class="nome-loja">Fashion Reborn</h1>
         <div class="menu-principal">
@@ -41,13 +60,13 @@
 			<img src="imagens/telefone.png"><p>(77) 3441-2106</p>
 			</div>
 			<div class="rodape1">
-			<img src="imagens/instagram.png"><p>@lauralisboa12</p>
+			<img src="imagens/instagram.png"><p>@fashion_reborn</p>
 			</div>
 			<div class="rodape1">
-			<img src="imagens/facebook.png"><p>Laura Camile</p>
+			<img src="imagens/facebook.png"><p>FashionRebornRoupas</p>
 			</div>
 			<div class="rodape1">
-			<img src="imagens/twiter.png"><p>lauralisboA_</p>
+			<img src="imagens/twiter.png"><p>fashionReborn_roupas</p>
 			</div>
 			<div id="endereco">
 			<img src="imagens/logo2.png"><p>Rua: Praça da Bandeira, 683,
