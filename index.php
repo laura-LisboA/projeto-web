@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -31,7 +31,23 @@
         </div>
     </div>
     <footer class='footer'>
-        <p style="font-family:sans-serif;">©Todos Direitos Reservados FashionReborn Ltda.</p>
+            <div class="rodape1">
+            <p style="font-family:sans-serif;">©Todos Direitos Reservados FashionReborn Ltda.</p>
+			<img src="imagens/telefone.png"><p>(77) 3441-2106</p>
+			</div>
+			<div class="rodape1">
+			<img src="imagens/instagram.png"><p>@lauralisboa12</p>
+			</div>
+			<div class="rodape1">
+			<img src="imagens/facebook.png"><p>Laura Camile</p>
+			</div>
+			<div class="rodape1">
+			<img src="imagens/twiter.png"><p>lauralisboA_</p>
+			</div>
+			<div id="endereco">
+			<img src="imagens/logo2.png"><p>Rua: Praça da Bandeira, 683,
+			Centro,Malhada de Pedras-BA</p>
+            </div>
     </footer>
 </body>
 
