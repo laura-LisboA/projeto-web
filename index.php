@@ -25,6 +25,12 @@
                     <img src="images/logo.png">
                 </div>
                 <nav>
+                <div class="barra">
+                    <form> 
+                        <input type="search" name="search" placeholder="Pesquisar">
+                        <input type="submit" value="Buscar">
+                    </form>
+                </div>  
 				    <ul>
 					   <li><a href="">Home</a></li>
 					   <li><a href="">Roupas</a></li>
