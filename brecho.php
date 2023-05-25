@@ -1,6 +1,16 @@
+<?php
 
+    require "roupasfemininas.php";
 
-
+    if(isset(["i"])){
+        $i = $_GET["i"];
+        $b = $blusas[$i];
+    }
+    else{
+        header("location: index.php");
+        die;
+    }
+?>
 <!DOCTYPE html>
 <html>
 <head>
