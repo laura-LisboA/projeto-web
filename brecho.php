@@ -44,8 +44,14 @@
                 </nav>
             </div>
     </header>
-	<div class="container-detalhe">
-		
+	<div class="container">
+        <img src="<?=$b["foto"]?>" alt = "<?=$=["tipo"]?>">
+		<h3><?=$f["tipo"]?></h3>
+		<h3>Tamanho: <?=$f["tamanho"]?></h3>
+		<h3>Preço: R$ <?=$f["preco"]?> </h3>
+		<p>Descrição: <?=$f["descricao"]?> </p>
+		<a href="index.php" class="botao">Voltar</a>
+        <a class="botao">Comprar</a>
 	</div>
 </body>
 </html>
