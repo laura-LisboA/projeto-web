@@ -60,7 +60,7 @@
 <html lang="pt-br">
 <head>
 	<title>Roupas</title>
-	<link rel="stylesheet" type="text/css" href="funcionarios.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
     <header>
