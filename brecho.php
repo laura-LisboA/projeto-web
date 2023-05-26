@@ -37,6 +37,15 @@
         header("location: index.php");
         die;
     }
+
+    if(isset(["i"])){
+        $i = $_GET["i"];
+        $b = $vestidos[$i];
+    }
+    else{
+        header("location: index.php");
+        die;
+    }
 ?>
 <!DOCTYPE html>
 <html>
@@ -51,9 +60,15 @@
 	</div>
     <div id="menu">
                 <div>
-                    <img src="images/logo.png">
+                    <img src="imagens/logo.png">
                 </div>
                 <nav>
+                <div class="barra">
+                    <form> 
+                        <input type="search" name="search" placeholder="Pesquisar">
+                        <input type="submit" value="Buscar">
+                    </form>
+                </div> 
 				    <ul>
 					   <li><a href="">Home</a></li>
 					   <li><a href="">Roupas</a></li>
