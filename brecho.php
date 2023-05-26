@@ -20,7 +20,7 @@
         die;
     }
 
-    if(isset($_GET["i"]){
+    if(isset($_GET["i"])){
         $i = $_GET["i"];
         $b = $shorts[$i];
     }
@@ -29,7 +29,7 @@
         die;
     }
 
-    if(isset($_GET["i"]){
+    if(isset($_GET["i"])){
         $i = $_GET["i"];
         $b = $saias[$i];
     }
