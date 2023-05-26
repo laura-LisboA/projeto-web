@@ -2,7 +2,7 @@
 
     require "roupasfemininas.php";
 
-    if(isset(["i"])){
+    if(isset($_GET["i"])){
         $i = $_GET["i"];
         $b = $blusas[$i];
     }
@@ -11,7 +11,7 @@
         die;
     }
 
-    if(isset(["i"])){
+    if(isset($_GET["i"])){
         $i = $_GET["i"];
         $b = $calcas[$i];
     }
@@ -20,7 +20,7 @@
         die;
     }
 
-    if(isset(["i"])){
+    if(isset($_GET["i"]){
         $i = $_GET["i"];
         $b = $shorts[$i];
     }
@@ -29,7 +29,7 @@
         die;
     }
 
-    if(isset(["i"])){
+    if(isset($_GET["i"]){
         $i = $_GET["i"];
         $b = $saias[$i];
     }
@@ -38,7 +38,7 @@
         die;
     }
 
-    if(isset(["i"])){
+    if(isset($_GET["i"])){
         $i = $_GET["i"];
         $b = $vestidos[$i];
     }
@@ -47,7 +47,7 @@
         die;
     }
 
-    if(isset(["i"])){
+    if(isset($_GET["i"])){
         $i = $_GET["i"];
         $b = $sapatos[$i];
     }
