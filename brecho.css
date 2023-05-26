@@ -1,0 +1,11 @@
+.container-roupas {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  gap: 20px;
+  padding: 20px;
+  grid-auto-rows: 400px;
+}
+.produto > img{
+    border-radius: 5%;
+}
