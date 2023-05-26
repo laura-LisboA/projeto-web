@@ -10,9 +10,19 @@
         header("location: index.php");
         die;
     }
+    
     if(isset(["i"])){
         $i = $_GET["i"];
         $b = $calcas[$i];
+    }
+    else{
+        header("location: index.php");
+        die;
+    }
+
+    if(isset(["i"])){
+        $i = $_GET["i"];
+        $b = $shorts[$i];
     }
     else{
         header("location: index.php");
