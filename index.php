@@ -22,7 +22,7 @@
 	</div>
     <div id="menu">
                 <div>
-                    <img src="imagens/logo.png">
+                    <img src="imagens/Logo fashion reborn.png">
                 </div>
                 <nav>
                 <div class="barra">
