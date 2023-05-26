@@ -88,11 +88,11 @@
             </div>
     </header>
 	<div class="container">
-        <img src="<?=$b["foto"]?>" alt = "<?=$=["tipo"]?>">
-		<h3><?=$f["tipo"]?></h3>
-		<h3>Tamanho: <?=$f["tamanho"]?></h3>
-		<h3>Preço: R$ <?=$f["preco"]?> </h3>
-		<p>Descrição: <?=$f["descricao"]?> </p>
+        <img src="<?=$b["foto"]?>" alt = "<?=$b["tipo"]?>">
+		<h3><?=$b["tipo"]?></h3>
+		<h3>Tamanho: <?=$b["tamanho"]?></h3>
+		<h3>Preço: R$ <?=$b["preco"]?> </h3>
+		<p>Descrição: <?=$b["descricao"]?> </p>
 		<a href="index.php" class="botao">Voltar</a>
         <a class="botao">Comprar</a>
 	</div>
