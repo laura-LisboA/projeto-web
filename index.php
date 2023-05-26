@@ -1,8 +1,3 @@
-<?php
-
-require "roupasfemininas.php";
-
-?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -10,7 +5,7 @@ require "roupasfemininas.php";
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
     <title>Fashion Reborn</title>
 
@@ -26,7 +21,6 @@ require "roupasfemininas.php";
                     <img width="90" height="100%" src="images/logo.png">
                 </div>
                 <ul>
-                    <li><a class="menu-option" href="formulario.php">Área do cliente</a></li>
                     <li><a class="menu-option" href="">Home</a></li>
                     <li><a class="menu-option" href="">Serviços</a></li>
                     <li><a class="menu-option" href="">Informações</a></li>
@@ -87,10 +81,8 @@ require "roupasfemininas.php";
                 window.location.replace('brecho.php?pagina=1')
             } else if (e.id == 'moda-feminina') {
                 window.location.replace('brecho.php?pagina=2')
-
             } else {
                 window.location.replace('brecho.php?pagina=3')
-
             }
         }
     </script>

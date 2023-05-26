@@ -1,6 +1,6 @@
 @font-face {
   font-family: castoro;
-  src: url("fonts/CastoroTitling-Regular.ttf");
+  src: url("../fonts/CastoroTitling-Regular.ttf");
 }
 
 * {
@@ -11,7 +11,6 @@
 
 body {
   background-color: gray;
-  width: auto;
   width: 100%;
 }
 
@@ -52,17 +51,17 @@ body {
 }
 
 .moda-feminina {
-  background-image: url("images/moda_feminina.jpg");
+  background-image: url("../images/moda_feminina.jpg");
   opacity: 0.3;
 }
 
 .moda-masculina {
-  background-image: url("images/moda_masculina.png");
+  background-image: url("../images/moda_masculina.png");
   opacity: 0.3;
 }
 
 .moda-kids {
-  background-image: url("images/moda_kids.jpg");
+  background-image: url("../images/moda_kids.jpg");
   opacity: 0.3;
 }
 footer {
