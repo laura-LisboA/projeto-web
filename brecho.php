@@ -90,9 +90,11 @@
 	<div class="container">
         <img src="<?=$b["foto"]?>" alt = "<?=$b["tipo"]?>">
 		<h3><?=$b["tipo"]?></h3>
+        <h3>Marca: <?=$b["marca"]?></h3>
 		<h3>Tamanho: <?=$b["tamanho"]?></h3>
 		<h3>Preço: R$ <?=$b["preco"]?> </h3>
-		<p>Descrição: <?=$b["descricao"]?> </p>
+		<h3>Descrição: <?=$b["descricao"]?> </h3>
+        <h3>Condição: <?=$b["condicao"]?></h3>
 		<a href="index.php" class="botao">Voltar</a>
         <a class="botao">Comprar</a>
 	</div>
