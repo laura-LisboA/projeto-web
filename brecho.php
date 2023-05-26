@@ -1,6 +1,6 @@
 <?php
 if ($_GET['pagina'] == 1) {
-    require_once "roupasmasculina.php";
+    require_once "roupasmasculinas.php";
 
 } elseif ($_GET['pagina'] == 2) {
     require_once 'roupasfemininas.php';
@@ -30,7 +30,20 @@ if ($_GET['pagina'] == 1) {
                     <li><a class="menu-option" href="/projeto-web">Home</a></li>
                     <li><a class="menu-option" href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>">Tudo</a>
                     </li>
-                    <?php if ($_GET['pagina'] == 2) { ?>
+
+                    <?php if ($_GET['pagina'] == 1) { ?>
+                        <li><a class="menu-option" id="tenis"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=tenis">Tenis</a></li>
+                        <li><a class="menu-option" id="sapato"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Camiseta">Camiseta</a></li>
+                        <li><a class="menu-option" id="calca"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Calça">Calças</a></li>
+                        <li><a class="menu-option" id="calca"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=oculos">Oculos</a></li>
+                        <li><a class="menu-option" id="calca"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Bermuda">Bermuda</a></li>
+
+                    <?php } elseif ($_GET['pagina'] == 2) { ?>
                         <li><a class="menu-option" id="sapato"
                                 href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Sapatos">Sapatos</a></li>
                         <li><a class="menu-option" id="vestido"
@@ -41,7 +54,7 @@ if ($_GET['pagina'] == 1) {
                                 href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Calça">Calças</a></li>
                         <li><a class="menu-option" id="blusa"
                                 href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Blusa">Blusas</a></li>
-                        <li><a class="menu-option" id="blusa"
+                        <li><a class="menu-option" id="saia"
                                 href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Saia">Saias</a></li>
                     <?php } else { ?>
                         <li><a class="menu-option" id="short"
@@ -59,7 +72,7 @@ if ($_GET['pagina'] == 1) {
     <div class='container-roupas'>
         <?php foreach ($roupas as $roupa) { ?>
             <?php if (!isset($_GET['tipo'])) { ?>
-                <div class="produto" id="<?= $roupa['foto'] ?>">
+                <div class="produto">
                     <img src="<?= $roupa['foto'] ?>" width="100%" height="70%" alt="erro">
                     <div class="texto-produto">
                         <p>Valor: R$
