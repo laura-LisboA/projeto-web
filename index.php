@@ -22,7 +22,7 @@
 	</div>
     <div id="menu">
                 <div>
-                    <img src="images/logo.png">
+                    <img src="imagens/logo.png">
                 </div>
                 <nav>
                 <div class="barra">
