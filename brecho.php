@@ -57,7 +57,7 @@
     }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<title>Roupas</title>
 	<link rel="stylesheet" type="text/css" href="funcionarios.css">
@@ -69,7 +69,7 @@
 	</div>
     <div id="menu">
                 <div>
-                    <img src="imagens/logo.png">
+                    <img src="imagens/Logo fashion reborn.png">
                 </div>
                 <nav>
                 <div class="barra">
