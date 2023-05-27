@@ -1,102 +1,137 @@
 <?php
+if ($_GET['pagina'] == 1) {
+    require_once "roupasmasculinas.php";
 
-    require "roupasfemininas.php";
+} elseif ($_GET['pagina'] == 2) {
+    require_once 'roupasfemininas.php';
 
-    if(isset($_GET["i"])){
-        $i = $_GET["i"];
-        $b = $blusas[$i];
-    }
-    else{
-        header("location: index.php");
-        die;
-    }
-
-    if(isset($_GET["i"])){
-        $i = $_GET["i"];
-        $b = $calcas[$i];
-    }
-    else{
-        header("location: index.php");
-        die;
-    }
-
-    if(isset($_GET["i"])){
-        $i = $_GET["i"];
-        $b = $shorts[$i];
-    }
-    else{
-        header("location: index.php");
-        die;
-    }
-
-    if(isset($_GET["i"])){
-        $i = $_GET["i"];
-        $b = $saias[$i];
-    }
-    else{
-        header("location: index.php");
-        die;
-    }
-
-    if(isset($_GET["i"])){
-        $i = $_GET["i"];
-        $b = $vestidos[$i];
-    }
-    else{
-        header("location: index.php");
-        die;
-    }
-
-    if(isset($_GET["i"])){
-        $i = $_GET["i"];
-        $b = $sapatos[$i];
-    }
-    else{
-        header("location: index.php");
-        die;
-    }
+} else {
+    require_once 'roupaskids.php';
+}
 ?>
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-	<title>Roupas</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Roupas</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/brecho.css">
 </head>
+
 <body>
     <header>
-    <div class="botao">
-		<a href="formulario.php">Área do cliente</a>
-	</div>
-    <div id="menu">
+        <div id="menu">
+
+            <nav>
                 <div>
-                    <img src="imagens/Logo fashion reborn.png">
+                    <img width="90" height="100%" src="images/logo.png">
                 </div>
-                <nav>
-                <div class="barra">
-                    <form> 
-                        <input type="search" name="search" placeholder="Pesquisar">
-                        <input type="submit" value="Buscar">
-                    </form>
-                </div> 
-				    <ul>
-					   <li><a href="">Home</a></li>
-					   <li><a href="">Roupas</a></li>
-					   <li><a href="">Informações</a></li>
-					   <li><a href="">Entrar</a></li>
-				    </ul>	
-                </nav>
-            </div>
+                <ul>
+                    <li><a class="menu-option" href="/projeto-web">Home</a></li>
+                    <li><a class="menu-option" href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>">Tudo</a>
+                    </li>
+
+                    <?php if ($_GET['pagina'] == 1) { ?>
+                        <li><a class="menu-option" id="tenis"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=tenis">Tenis</a></li>
+                        <li><a class="menu-option" id="sapato"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Camiseta">Camiseta</a></li>
+                        <li><a class="menu-option" id="calca"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Calça">Calças</a></li>
+                        <li><a class="menu-option" id="calca"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=oculos">Oculos</a></li>
+                        <li><a class="menu-option" id="calca"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Bermuda">Bermuda</a></li>
+
+                    <?php } elseif ($_GET['pagina'] == 2) { ?>
+                        <li><a class="menu-option" id="sapato"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Sapatos">Sapatos</a></li>
+                        <li><a class="menu-option" id="vestido"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Vestidos">Vestidos</a></li>
+                        <li><a class="menu-option" id="short"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Shorts">Shorts</a></li>
+                        <li><a class="menu-option" id="calca"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Calça">Calças</a></li>
+                        <li><a class="menu-option" id="blusa"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Blusa">Blusas</a></li>
+                        <li><a class="menu-option" id="saia"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Saia">Saias</a></li>
+                    <?php } else { ?>
+                        <li><a class="menu-option" id="short"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Shorts">Shorts</a></li>
+                        <li><a class="menu-option" id="calca"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Calça">Calças</a></li>
+                        <li><a class="menu-option" id="blusa"
+                                href="/projeto-web/brecho.php?pagina=<?= $_GET['pagina'] ?>&tipo=Blusa">Blusas</a></li>
+                    <?php } ?>
+
+                </ul>
+            </nav>
+        </div>
     </header>
-	<div class="container">
-        <img src="<?=$b["foto"]?>" alt = "<?=$b["tipo"]?>">
-		<h3><?=$b["tipo"]?></h3>
-        <h3>Marca: <?=$b["marca"]?></h3>
-		<h3>Tamanho: <?=$b["tamanho"]?></h3>
-		<h3>Preço: R$ <?=$b["preco"]?> </h3>
-		<h3>Descrição: <?=$b["descricao"]?> </h3>
-        <h3>Condição: <?=$b["condicao"]?></h3>
-		<a href="index.php" class="botao">Voltar</a>
-        <a class="botao">Comprar</a>
-	</div>
+    <div class='container-roupas'>
+        <?php foreach ($roupas as $roupa) { ?>
+            <?php if (!isset($_GET['tipo'])) { ?>
+                <div class="produto">
+                    <img src="<?= $roupa['foto'] ?>" width="100%" height="70%" alt="erro">
+                    <div class="texto-produto">
+                        <p>Valor: R$
+                            <?= $roupa['preco'] ?>
+                        </p>
+                        <p>Descrição:
+                            <?= $roupa['descricao'] ?>
+                        </p>
+                        <p>Tamanho:
+                            <?= $roupa['tamanho'] ?>
+                        </p>
+                    </div>
+                </div>
+            <?php } else { ?>
+                <?php if ($roupa['tipo'] == $_GET['tipo']) { ?>
+                    <div class="produto" id="<?= $roupa['foto'] ?>">
+                        <img src="<?= $roupa['foto'] ?>" width="100%" height="70%" alt="erro">
+                        <div class="texto-produto">
+                            <p>Valor: R$
+                                <?= $roupa['preco'] ?>
+                            </p>
+                            <p>Descrição:
+                                <?= $roupa['descricao'] ?>
+                            </p>
+                            <p>Tamanho:
+                                <?= $roupa['tamanho'] ?>
+                            </p>
+                        </div>
+                    </div>
+                <?php } ?>
+            <?php } ?>
+        <?php } ?>
+    </div>
+    <footer>
+        <div class='footer'>
+            <div class="rodape1">
+                <img src="images/telefone.png">
+                <p>(77) 3441-2106</p>
+            </div>
+            <div class="rodape1">
+                <img src="images/instagram.png">
+                <p>@fashion_reborn</p>
+            </div>
+            <div class="rodape1">
+                <img src="images/facebook.png">
+                <p>FashionRebornRoupas</p>
+            </div>
+            <div class="rodape1">
+                <img src="images/twiter.png">
+                <p>fashionReborn_roupas</p>
+            </div>
+            <div id="endereco">
+                <p>Rua: Praça da Bandeira, 683,</p>
+                <p>
+                    Centro,Malhada de Pedras-BA</p>
+            </div>
+        </div>
+        <p style="font-family:sans-serif;">©Todos Direitos Reservados FashionReborn Ltda.</p>
+    </footer>
 </body>
+
 </html>
